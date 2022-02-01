@@ -1,0 +1,98 @@
+
+
+
+
+body
+{
+	background:url(back.jpg) fixed no-repeat;
+	background-size:100%;
+	color:#589482;
+	text-transform:uppercase;
+	font-family: 'Fredoka One', cursive;
+}
+
+
+
+.box div
+{ 
+	border:solid black 2px;
+	height:214px;
+	width:320px;
+	border-radius:10px;
+	margin:10px;
+	padding:10px;
+	background:#FFF799;
+	
+}
+.box div:hover
+{
+	transform:scale(1.2,1.5);
+}
+	
+
+.box
+{
+	display:flex;
+	margin:20px;
+}
+h1
+{
+	font-size:4em;
+	text-align:center;
+	color:#FFD9DF;
+	text-shadow: 10px 4px #B83A1B;;
+}
+h1:hover
+{
+	text-shadow: 10px 4px #B83A1B;
+}
+
+caption
+{
+	color:#B83A1B;
+	font-weight:bolder;
+	font-size:1.5em;
+	
+}
+caption:hover
+{
+	color:#B83A1B;
+}
+th
+{
+color:#769600;
+
+
+}
+th:hover
+{
+	color:#1D702D;
+}
+
+td
+{	
+	font-family: 'Lobster', cursive;
+	font-weight:bold;
+	text-align:center;
+	border: white 2px solid ;
+	border-radius:50%;
+	background-color:white;
+
+}
+
+td:hover
+{
+	transform:scale(1.5,1.5);
+	color:blue;
+	font-weight:bold;
+	
+}
+
+.nbdays
+{
+	color:blue;
+}
+.empty
+{ 
+	opacity:0;
+}
